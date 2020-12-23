@@ -47,7 +47,7 @@ Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/instal
 
 ### 3. Setup Locally
 
-##### 1. Open the correct folder
+#### 1. Open the correct folder
 To create the Conda environment and install Metal via the terminal or desktop you must be in the `qiskit_metal` folder you just cloned.
 
 For the terminal or command line, `cd` into qiskit_metal.
@@ -56,7 +56,7 @@ For Github desktop, you can open the qiskit_metal folder from the menu Repositor
 
 
 
-##### 2. Create Conda Environment
+#### 2. Create Conda Environment
 
 Run the commands below to create and activate a new environment with name `<env_name>` with all the necessary library dependencies found in `environment.yml`
 ```
@@ -64,7 +64,7 @@ conda env create -n <env_name> environment.yml
 conda activate <env_name>
 ```
 
-##### 3. Install Qiskit Metal in Conda Environment
+#### 3. Install Qiskit Metal in Conda Environment
 Run the commands below to install Metal in your activated Conda environment.
 ```
 python -m pip install -ve .
