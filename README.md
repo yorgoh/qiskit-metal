@@ -33,7 +33,7 @@ Notes:
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
 * On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-### Downloading Qiskit Metal
+### Download Qiskit Metal
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
@@ -46,7 +46,7 @@ Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [no
 
 Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [Conda environment](https://docs.Conda.io/en/latest/miniConda.html) or in a virtual Python environment, as described below. We recommend Conda.
 
-##### Installing Conda
+### Install Conda
 Install Conda, a python environment manager. Please follow these [instructions](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/).
 
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
@@ -97,10 +97,11 @@ This will create a kernel for the Conda environment that is active at the moment
 
 Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
-#### Alternative Setup (no Conda) - not recommended:
+### Alternative Setup (no Conda) - not recommended:
 ##### Virtual environment setup
 
 **On Windows, do this first:** It is recommended that you first install `Visual C++ 14.0`, it is required for a successful install of `gdspy`.
+
 If you do not have `Visual C++ 14.0` installed you will be notified to install it when `gdspy` attempts to install.
 You can do this by downloading and installing [C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 Be sure to select the latest versions of `MSVCv142 - VS 2019 C++ x64/x86 build tools` and `Windows 10 SDK` in the installer as suggested in [this wiki](https://wiki.python.org/moin/WindowsCompilers) referenced by the gdspy documentation.
