@@ -33,17 +33,16 @@ Notes:
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
 * On Windows, the conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-#### Downloading
-You could download the code as a zip file at the top of this page.
-However we recommend investing into setting up a proper git linkage, which will simplify the retrieval of code updates and the possible contributions back to the source code.
+### Downloading
 
-To do that, you will need to `git clone` this repository's main branch following one of two ways.
+To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
-1. Open any command line shell that has been configured with git and execute the following command:
+###### Option 1: Command line shell (with git installed and configured):
 ``` sh
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
-2. Alternatively, you can download and use the user interface [GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
+###### Option 2:  GUI
+Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
 Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [conda environment](https://docs.conda.io/en/latest/miniconda.html) or in a virtual Python environment, as described below. We recommend conda.
 
@@ -57,7 +56,7 @@ Install Conda, a python environment manager. Please follow these [instructions](
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
 
 
-###### Create Conda Environment
+##### Create Conda Environment
 
 First navigate to the folder created by the clone. For example:
 
@@ -65,23 +64,18 @@ First navigate to the folder created by the clone. For example:
 cd qiskit-metal
 ```
 
-If you are in the folder qiskit-metal folder, there will be an `environment.yml` file.
-Create the environment and activate the environment.
+If you are in the folder qiskit-metal folder, there will be an `environment.yml` file. This creates a new environment with name `<env_name>` with all the necessary library dependencies found in `environment.yml`. It then activates the environment.
+Run the commands below to create the environment and activate the environment.
 ```
 conda env create -n <env_name> environment.yml
 conda activate <env_name>
 ```
 
-###### Install Qiskit Metal in Conda Environment
-You must still be inside the qiskit-metal folder and have the desired conda environment activated. There is a `setup.py` file in that folder which is used when you run the code below.
+##### Install Qiskit Metal in Conda Environment
+You must still be inside the qiskit-metal folder and have the desired conda environment activated. There is a `setup.py` file in that folder which is used when you run the code below. Run the commands below to install Metal in your activated conda environment.
 ```
 python -m pip install -ve .
 ```
-
-This creates a new environment with name `<env_name>` with all the necessary library dependencies.
-Then it activates the new environment.
-Finally installs the local qiskit-metal code inside that environment.
-
 
 Notes:
 
@@ -107,7 +101,7 @@ This will create a kernel for the conda environment that is active at the moment
 
 Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
-#### Alternative Setup (no Conda):
+#### Alternative Setup (no Conda) - not recommended:
 ##### Virtual environment setup
 
 **On Windows, do this first:** It is recommended that you first install `Visual C++ 14.0`, it is required for a successful install of `gdspy`.
