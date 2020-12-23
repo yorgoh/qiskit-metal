@@ -26,9 +26,6 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 *For your own sanity, it is recommended to read this document in its entirety before proceeding.*
 
 
-
-
-
 ### 1. Download Qiskit Metal Code
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
@@ -72,8 +69,36 @@ Run the commands below to install Metal in your activated Conda environment.
 python -m pip install -ve .
 ```
 
-#### 3.5 Developer Setup
+#### 4. Jupyter
+*`Jupyter Notebooks` should already be installed for you by Conda.*
+
+#### 1. Add Conda Environment to Jupyter
+*Make sure you're still in your <env_name> activated environment*
+```
+conda install ipykernel
+ipython kernel install --user --name=<any_name_for_kernel>
+```
+This will create a kernel for the Conda environment that you can choose to use in Jupyter Notebooks
+
+#### 2. Launch Jupyter
+
+``` jupyter notebook
+```
+This should open your browser to Jupyter
+
+#### 3. Run Notebook
+Navigate to a jupyter notebook you wish to run. For example, `qiskit_metal/TUTORIAL/1 Start Here/1.1 Flashy Quick Demo of Metal.ipynb`
+
+Once the notebook is open, be sure to click on the `kernel` tab and `change kernel` to the <env_name> environment you already created.
+
+Then click the `cell` tab and click `run all`
+
+#### 5 Using Metal
+Open the TUTORIAL folder in Jupyter Notebooks and start playing with Metal.
+
+#### 5.5 Developer Setup (Optional)
 If you are planning to contribute to the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
+
 
 #### Notes:
 
@@ -85,20 +110,6 @@ If you are planning to contribute to the qiskit metal codebase, you'll want to u
 You can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
-#### 4 (Optional) Jupyter lab
-
-Launching jupyter lab will execute python code in the Conda `base` environment by default.
-To change environment to the one you just finished setting up, you will need first to "assign" the environment to a kernel label.
-To do so, from a command line inside the active <env_name>, run the following lines:
-
-```
-conda install ipykernel
-ipython kernel install --user --name=<any_name_for_kernel>
-```
-
-This will create a kernel for the Conda environment that is active at the moment.
-
-Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
 ### Alternative Setup (no Conda) - not recommended:
 *On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.*
