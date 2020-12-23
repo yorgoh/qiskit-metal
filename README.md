@@ -20,7 +20,7 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 ## Installation
 #### Video Instructions
 
-[![yt](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit "Qiskit Metal Install")
+[![yt](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit =250x "Qiskit Metal Install")
 
 ### Text Instructions
 Notes:
