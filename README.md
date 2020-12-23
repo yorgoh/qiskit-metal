@@ -74,7 +74,7 @@ Technically optional, but all tutorials for Metal are all written in Jupyter Not
 
 *`Jupyter Notebooks` should already be installed for you by Conda.*
 
-#### 1. Add Conda Environment to Jupyter
+##### 1. Add Conda Environment to Jupyter
 *Make sure you're still in your <env_name> activated environment*
 ```
 conda install ipykernel
@@ -82,14 +82,14 @@ ipython kernel install --user --name=<any_name_for_kernel>
 ```
 This will create a kernel for the Conda environment that you can choose to use in Jupyter Notebooks
 
-#### 2. Launch Jupyter
+##### 2. Launch Jupyter
 
 ```
 jupyter notebook
 ```
 This should open your browser to Jupyter
 
-#### 3. Run Notebook
+##### 3. Run Notebook
 Navigate to a jupyter notebook you wish to run. For example, `qiskit_metal/TUTORIAL/1 Start Here/1.1 Flashy Quick Demo of Metal.ipynb`
 
 Once the notebook is open, be sure to click on the `kernel` tab and `change kernel` to the <env_name> environment you already created.
