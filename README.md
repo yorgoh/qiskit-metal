@@ -33,7 +33,7 @@ Notes:
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
 * On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-### Download Qiskit Metal
+#### Download Qiskit Metal
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
@@ -46,17 +46,15 @@ Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [no
 
 Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [Conda environment](https://docs.Conda.io/en/latest/miniConda.html) or in a virtual Python environment, as described below. We recommend Conda.
 
-### Install Conda
-Install Conda, a python environment manager. Please follow these [instructions](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/).
+#### Install Conda
+Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/), a python environment manager.
 
+
+#### Setup (Preferred)
+
+To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda and a `setup.py` used by pip for installation.
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
 
-###### What is a Conda Environment?
-A Conda environment is a special workspace you can create and put in a certain version of Python, install certain software, etc. Those installed softwares will only exist in that environment, meaning you can make a separate workspace for each project you work on so you won't have dependency issues from trying to download incompatible libraries into the same workspace.
-
-
-### Setup (Preferred)
-To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda and a `setup.py` used by pip for installation.
 
 
 ##### Create Conda Environment
