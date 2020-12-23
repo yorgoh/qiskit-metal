@@ -18,20 +18,15 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 
 ## Installation
-#### Video Instructions
+* For your own sanity, it is recommended to read this document in its entirety before proceeding.
+* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-
+##### Video Installation Link:
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
  Click for YouTube Video <br>
 	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
 </a>
 
-
-### Text Instructions
-Notes:
-
-* For your own sanity, it is recommended to read this document in its entirety before proceeding.
-* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
 ### 1. Download Qiskit Metal
 
