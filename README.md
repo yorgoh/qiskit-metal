@@ -72,9 +72,11 @@ python -m pip install -ve .
 
 Notes:
 
-* Please contact us on slack if you run into issues
 * Remember the period (".") at the end of the third command.
 * **Important**: Remember to `Conda activate <env_name>` if you intend to use qiskit-metal.  See what a [Conda environment is](https://docs.Conda.io/projects/Conda/en/latest/user-guide/tasks/manage-environments.html)
+* Check the *Common Issues* section at the bottom of these README if you run into problems.
+* Please contact us on slack if you run into issues
+
 
 At this point you can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
