@@ -84,7 +84,7 @@ If you are planning to contribute to the qiskit metal codebase, you'll want to u
 At this point you can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
-##### 4 (Optional) Jupyter lab
+#### 4 (Optional) Jupyter lab
 
 Launching jupyter lab will execute python code in the Conda `base` environment by default.
 To change environment to the one you just finished setting up, you will need first to "assign" the environment to a kernel label.
