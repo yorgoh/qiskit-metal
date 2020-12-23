@@ -82,7 +82,8 @@ This will create a kernel for the Conda environment that you can choose to use i
 
 #### 2. Launch Jupyter
 
-``` jupyter notebook
+```
+jupyter notebook
 ```
 This should open your browser to Jupyter
 
