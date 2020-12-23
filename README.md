@@ -33,7 +33,7 @@ Notes:
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
 * On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-#### Download Qiskit Metal
+### 1. Download Qiskit Metal
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
@@ -42,15 +42,14 @@ To allow for each updates and contributions you will need to `git clone` this re
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
 ##### Option 2:  GUI
-Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
+Download [GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
-Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [Conda environment](https://docs.Conda.io/en/latest/miniConda.html) or in a virtual Python environment, as described below. We recommend Conda.
 
-#### Install Conda
+### 2. Download/Install Conda
 Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/), a python environment manager.
 
 
-#### Setup (Preferred)
+#### 3. Setup (Preferred)
 
 To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda and a `setup.py` used by pip for installation.
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
@@ -80,7 +79,7 @@ Notes:
 At this point you can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
-##### (Optional) Jupyter lab
+##### 4 (Optional) Jupyter lab
 
 Launching jupyter lab will execute python code in the Conda `base` environment by default.
 To change environment to the one you just finished setting up, you will need first to "assign" the environment to a kernel label.
