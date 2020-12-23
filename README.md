@@ -70,7 +70,8 @@ Run the commands below to install Metal in your activated Conda environment.
 python -m pip install -ve .
 ```
 
-#### 3.5 If you are planning to develop the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
+#### 3.5 Developer Setup
+If you are planning to contribute to the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
 
 Notes:
 
