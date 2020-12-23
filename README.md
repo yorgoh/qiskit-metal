@@ -31,19 +31,19 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 ### 1. Downloads
 
-#### - Qiskit Metal Code
+#### Qiskit Metal Code
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
-##### Option 1: Command line shell (with git already installed and configured):
+###### Option 1: Command line shell (with git already installed and configured):
 ``` sh
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
-##### Option 2:  GUI
+###### Option 2:  GUI
 Download [GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
 
-#### - Download/Install Conda
+#### Conda
 Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/), a python environment manager.
 
 
