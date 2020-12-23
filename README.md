@@ -82,8 +82,7 @@ If you are planning to contribute to the qiskit metal codebase, you'll want to u
 * Check the *Common Issues* section at the bottom of these README if you run into problems.
 * Please contact us on slack if you run into issues
 
-
-At this point you can already use qiskit-metal through jupyter notebook.
+You can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
 #### 4 (Optional) Jupyter lab
