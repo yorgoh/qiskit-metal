@@ -143,7 +143,7 @@ Finally, if you are planning to develop the qiskit metal codebase, you'll want t
 
 
 
-## Common Issues
+## Common Metal Issues
 #### Installation hints
 
 Here are some things to consider when setting up a development environment:
