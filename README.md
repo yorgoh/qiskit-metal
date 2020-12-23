@@ -29,21 +29,19 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 
 
-### 1. Downloads
-
-#### Qiskit Metal Code
+### 1. Download Qiskit Metal Code
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
-###### Option 1: Command line shell (with git already installed and configured):
+##### Option 1: Command line shell (with git already installed and configured):
 ``` sh
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
-###### Option 2:  GUI
+##### Option 2:  GUI
 Download [GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
 
-#### Conda
+### 2. Download/Install Conda
 Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/), a python environment manager.
 
 
@@ -61,6 +59,7 @@ For Github desktop, you can open the qiskit_metal folder from the menu Repositor
 #### 2. Create Conda Environment
 
 Run the commands below to create and activate a new environment with name `<env_name>` with all the necessary library dependencies found in `environment.yml`
+
 ```
 conda env create -n <env_name> environment.yml
 conda activate <env_name>
@@ -68,6 +67,7 @@ conda activate <env_name>
 
 #### 3. Install Qiskit Metal in Conda Environment
 Run the commands below to install Metal in your activated Conda environment.
+
 ```
 python -m pip install -ve .
 ```
