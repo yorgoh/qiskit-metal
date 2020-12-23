@@ -70,6 +70,8 @@ python -m pip install -ve .
 ```
 
 #### 4. Jupyter
+Technically optional, but all tutorials for Metal are all written in Jupyter Notebooks and so it is highly encouraged you use Jupyter
+
 *`Jupyter Notebooks` should already be installed for you by Conda.*
 
 #### 1. Add Conda Environment to Jupyter
