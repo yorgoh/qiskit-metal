@@ -73,7 +73,7 @@ python -m pip install -ve .
 #### 3.5 Developer Setup
 If you are planning to contribute to the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
 
-Notes:
+#### Notes:
 
 * Remember the period (".") at the end of the third command.
 * **Important**: Remember to `Conda activate <env_name>` if you intend to use qiskit-metal.  See what a [Conda environment is](https://docs.Conda.io/projects/Conda/en/latest/user-guide/tasks/manage-environments.html)
