@@ -31,7 +31,7 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 Notes:
 
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
-* On Windows, the conda environment is strongly recommended because Shapely is difficult to install directly via pip.
+* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
 ### Downloading
 
@@ -44,14 +44,14 @@ git clone https://github.com/Qiskit/qiskit-metal.git
 ##### Option 2:  GUI
 Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
-Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [conda environment](https://docs.conda.io/en/latest/miniconda.html) or in a virtual Python environment, as described below. We recommend conda.
+Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [Conda environment](https://docs.Conda.io/en/latest/miniConda.html) or in a virtual Python environment, as described below. We recommend Conda.
 
 
 
 ### Setup (Preferred)
 
 ##### Install Conda
-Install Conda, a python environment manager. Please follow these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+Install Conda, a python environment manager. Please follow these [instructions](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/).
 
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
 
@@ -76,7 +76,7 @@ conda activate <env_name>
 ```
 
 ##### Install Qiskit Metal in Conda Environment
-You must still be inside the qiskit-metal folder and have the desired conda environment activated. There is a `setup.py` file in that folder which is used when you run the code below. Run the commands below to install Metal in your activated conda environment.
+You must still be inside the qiskit-metal folder and have the desired Conda environment activated. There is a `setup.py` file in that folder which is used when you run the code below. Run the commands below to install Metal in your activated Conda environment.
 ```
 python -m pip install -ve .
 ```
@@ -85,14 +85,14 @@ Notes:
 
 * It is possible that you may run into version conflicts during the above installation, as qiskit-metal requires specific library versions to work correctly on every OS.
 * Remember the period (".") at the end of the third command.
-* **Important**: Remember to `conda activate <env_name>` if you intend to use qiskit-metal.  See what a [conda environment is](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+* **Important**: Remember to `Conda activate <env_name>` if you intend to use qiskit-metal.  See what a [Conda environment is](https://docs.Conda.io/projects/Conda/en/latest/user-guide/tasks/manage-environments.html)
 
 At this point you can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
 ##### (Optional) Jupyter lab
 
-Launching jupyter lab will execute python code in the conda `base` environment by default.
+Launching jupyter lab will execute python code in the Conda `base` environment by default.
 To change environment to the one you just finished setting up, you will need first to "assign" the environment to a kernel label.
 To do so, from a command line inside the active <env_name>, run the following lines:
 
@@ -101,7 +101,7 @@ conda install ipykernel
 ipython kernel install --user --name=<any_name_for_kernel>
 ```
 
-This will create a kernel for the conda environment that is active at the moment.
+This will create a kernel for the Conda environment that is active at the moment.
 
 Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
@@ -146,15 +146,15 @@ Please be aware that the environment.xml and requirements.txt each use a differe
 
 For other OS users, this setup might cause `pyqode.qt` to be upgraded automatically after it is first installed. If you still observe `pyqode`-related errors, try forcing the upgrade of the pyqode.python library with `pip install pyqode.python --upgrade`.
 
-If Windows users continue to experience GUI or other issues, try rerunning `python setup.py install` or creating a new, pristine conda environment as per above instructions. Pay particular attention to the python version, which must remain 3.7.8 for as long as qiskit-metal utilizes pyqode.
+If Windows users continue to experience GUI or other issues, try rerunning `python setup.py install` or creating a new, pristine Conda environment as per above instructions. Pay particular attention to the python version, which must remain 3.7.8 for as long as qiskit-metal utilizes pyqode.
 
 #### Jupyter Lab
 If you can not start Jupyter Lab in the new environment.
 
-Based on: https://anaconda.org/conda-forge/jupyterlab
+Based on: https://anaConda.org/Conda-forge/jupyterlab
 Install Jupyter lab by
 ```
-conda install -c conda-forge jupyterlab
+Conda install -c Conda-forge jupyterlab
 ```
 Then change directory to top level of repository.
 ```
@@ -193,7 +193,7 @@ Then open the applicable settings.json in your VS Code. (See how to open command
 
 ## Docs and how to use
 
-[Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+[Conda User Guide](https://docs.Conda.io/projects/Conda/en/latest/user-guide/tasks/manage-environments.html)
 
 [Python Setup and Usage](https://docs.python.org/3/using/)
 
