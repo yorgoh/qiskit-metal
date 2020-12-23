@@ -37,24 +37,26 @@ Notes:
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
-###### Option 1: Command line shell (with git installed and configured):
+##### Option 1: Command line shell (with git installed and configured):
 ``` sh
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
-###### Option 2:  GUI
+##### Option 2:  GUI
 Download[GitHub Desktop GUI](https://desktop.github.com/) and refer to these [notes](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
 Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [conda environment](https://docs.conda.io/en/latest/miniconda.html) or in a virtual Python environment, as described below. We recommend conda.
 
 
 
-#### Setup (Preferred)
+### Setup (Preferred)
 
 ##### Install Conda
 Install Conda, a python environment manager. Please follow these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
 For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
 
+###### What is a Conda Environment?
+A Conda environment is a special workspace you can create and put in a certain version of Python, install certain software, etc. Those installed softwares will only exist in that environment, meaning you can make a separate workspace for each project you work on so you won't have dependency issues from trying to download incompatible libraries into the same workspace.
 
 ##### Create Conda Environment
 
@@ -64,8 +66,10 @@ First navigate to the folder created by the clone. For example:
 cd qiskit-metal
 ```
 
-If you are in the folder qiskit-metal folder, there will be an `environment.yml` file. This creates a new environment with name `<env_name>` with all the necessary library dependencies found in `environment.yml`. It then activates the environment.
-Run the commands below to create the environment and activate the environment.
+If you are in the folder qiskit-metal folder, there will be an `environment.yml`
+file.
+
+Run the commands below to create and activate a new environment with name `<env_name>` with all the necessary library dependencies found in `environment.yml`
 ```
 conda env create -n <env_name> environment.yml
 conda activate <env_name>
