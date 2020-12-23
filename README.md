@@ -20,10 +20,12 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 ## Installation
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
  Click for Installation YouTube Video <br>
+	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
 </a>
 
-* For your own sanity, it is recommended to read this document in its entirety before proceeding.
-* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
+*For your own sanity, it is recommended to read this document in its entirety before proceeding.*
+
+
 
 
 
@@ -89,6 +91,7 @@ This will create a kernel for the Conda environment that is active at the moment
 Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
 ### Alternative Setup (no Conda) - not recommended:
+*On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.*
 ##### Virtual environment setup
 
 **On Windows, do this first:** It is recommended that you first install `Visual C++ 14.0`, it is required for a successful install of `gdspy`.
