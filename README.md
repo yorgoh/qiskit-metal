@@ -1,33 +1,39 @@
-﻿# Qiskit Metal [![](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Qiskit/qiskit-metal) [![](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Qiskit/qiskit-metal)
+# Qiskit Metal [![](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Qiskit/qiskit-metal) [![](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Qiskit/qiskit-metal)
 >  Quantum hardware design and analysis
 
 ![Welcome to Qiskit Metal!](docs/images/zkm_banner.png 'Welcome to Qiskit Metal')
 
-### Early access for quantum device design project now open
+## Early Access
 https://qiskit.org/metal/
 
-Unpolished, early-access alpha version for a first-of-its-kind, open-source project for engineers and scientists to design superconducting quantum devices with ease.
+This is the unpolished, early-access version for a first-of-its-kind, open-source project for engineers and scientists to design superconducting quantum devices with ease.
 
-#### Early Access
+This early-access program will start in November and proceed through March, 2021, during which time we will work closely to develop Metal and design quantum devices with it.
+
 Through this early-access program, we are thrilled to ask you to join this journey to revolutionize quantum devices.
 
-The early-access program will start in November and proceed through March, 2021, during which time we will work closely to develop Metal and design quantum devices with it.
-<br><br>
 
-#### Get help: Slack
-Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u2FGivroQi64fHajpTWiw) to communicate with the developers and other early-access participats. (Troubleshooting: If the Slack invitation has expired, request one by opening a GitHub issue.)
+###### Get help: Slack
+Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u2FGivroQi64fHajpTWiw) to communicate with other developers and  early-access participants. (Troubleshooting: If the Slack invitation has expired, request one by opening a GitHub issue.)
 
 
 ## Installation
-### Video Instructions
+#### Video Instructions
 
+[![yt](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit "Qiskit Metal Install")
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
  Click for YouTube Video <br>
-	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=250>
+	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
 </a>
- 
+
 
 ### Text Instructions
+Notes:
+
+* For your own sanity, it is recommended to read this document in its entirety before proceeding.
+* On Windows, the conda environment is strongly recommended because Shapely is difficult to install directly via pip.
+
+#### Downloading
 You could download the code as a zip file at the top of this page.
 However we recommend investing into setting up a proper git linkage, which will simplify the retrieval of code updates and the possible contributions back to the source code.
 
@@ -41,32 +47,34 @@ git clone https://github.com/Qiskit/qiskit-metal.git
 
 Now that you have a local copy of the code, you can install Qiskit Metal either in a virtual [conda environment](https://docs.conda.io/en/latest/miniconda.html) or in a virtual Python environment, as described below. We recommend conda.
 
-Notes:
 
-* For your own sanity, it is recommended to read this document in its entirety before proceeding.
-* On Windows, the conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-#### Conda environment setup (preferred setup)
+#### Setup (Preferred)
 
-If you did not yet install conda, please follow these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
-We will setup a conda environment to use the local copy of qiskit-metal you created in the previous section. This approach enables you to immediately observe the effect of your code modifications.
+##### Install Conda
+Install Conda, a python environment manager. Please follow these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-For this section you will need to use the command line. If you use github desktop, you can open one from the menu `Repository -> Open In....`
+For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
 
-##### Option 1: A new environment
 
-The most reliable way to set up a qiskit_metal environment is to build one from scratch using the provided conda environment specification file `environment.yml`.
-To do so, first navigate to the folder created by the clone. For example:
+###### Create Conda Environment
+
+First navigate to the folder created by the clone. For example:
 
 ```
 cd qiskit-metal
 ```
 
-Once you are in the folder that contains the `environemnt.yml` file, execute the following installation commands:
-
+If you are in the folder qiskit-metal folder, there will be an `environment.yml` file.
+Create the environment and activate the environment.
 ```
 conda env create -n <env_name> environment.yml
 conda activate <env_name>
+```
+
+###### Install Qiskit Metal in Conda Environment
+You must still be inside the qiskit-metal folder and have the desired conda environment activated. There is a `setup.py` file in that folder which is used when you run the code below.
+```
 python -m pip install -ve .
 ```
 
@@ -74,19 +82,6 @@ This creates a new environment with name `<env_name>` with all the necessary lib
 Then it activates the new environment.
 Finally installs the local qiskit-metal code inside that environment.
 
-The `-e` flag install qiskit\_metal in [editable mode](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-e).
-The `-v` flag is for verbose.
-
-##### Option 2: A pre-existing environment
-
-If convenient, you can instead try to install directly in an existing conda environment `<env_name_exist>`, if it is relatively up to date.
-To do so, execute these commands in the top-level of the repository:
-
-```
-conda env update -n <env_name_exist> environment.yml
-conda activate <env_name_exist>
-python -m pip install -ve .
-```
 
 Notes:
 
@@ -112,7 +107,8 @@ This will create a kernel for the conda environment that is active at the moment
 
 Once inside `jupyter lab`, switch to the newly created kernel to be able to work with qiskit-metal.
 
-#### Without conda: Virtual environment setup (alternative setup)
+#### Alternative Setup (no Conda):
+##### Virtual environment setup
 
 **On Windows, do this first:** It is recommended that you first install `Visual C++ 14.0`, it is required for a successful install of `gdspy`.
 If you do not have `Visual C++ 14.0` installed you will be notified to install it when `gdspy` attempts to install.
@@ -132,7 +128,7 @@ where `<virtual_env_path>` is where you want the Python virtual environment to b
 On Windows, replace `source <virtual_env_path>/bin/activate` with `.\<virtual_env_path>\Scripts\activate`.
 
 
-#### Installation hints
+###### Installation hints
 
 Here are some things to consider when setting up a development environment:
 
@@ -141,11 +137,11 @@ Here are some things to consider when setting up a development environment:
 * Add the path of your qiskit-metal folder to your PATH
 
 
-### Additional steps for developers
+### For Developers
 If you are planning to develop the qiskit metal codebase, you'll want to use these instructions to [setup user environment](/docs/NEW_DEVELOPER_SETUP.md)
 
 
-### Common Issues
+## Common Issues
 
 #### pyqode/pyside
 Please be aware that the environment.xml and requirements.txt each use a different `pyside` version. This is done for Windows OS users to prevent a ipython kernel crash caused by the installation of a library incompatible with `pyqode`.
