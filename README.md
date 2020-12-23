@@ -18,8 +18,6 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 
 ## Installation
-* For your own sanity, it is recommended to read this document in its entirety before proceeding.
-* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
 ##### Video Installation Link:
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
@@ -27,12 +25,16 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
 </a>
 
+* For your own sanity, it is recommended to read this document in its entirety before proceeding.
+* On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.
 
-### 1. Download Qiskit Metal
+
+
+### 1. Download Qiskit Metal Code
 
 To allow for each updates and contributions you will need to `git clone` this repository's main branch.
 
-##### Option 1: Command line shell (with git installed and configured):
+##### Option 1: Command line shell (with git already installed and configured):
 ``` sh
 git clone https://github.com/Qiskit/qiskit-metal.git
 ```
@@ -44,10 +46,11 @@ Download [GitHub Desktop GUI](https://desktop.github.com/) and refer to these [n
 Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/install/), a python environment manager.
 
 
-#### 3. Setup (Preferred)
+### 3. Setup (Preferred)
 
-To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda and a `setup.py` used by pip for installation.
-For this section you will need to use the command line (or terminal). If you use github desktop, you can open one from the menu `Repository -> Open In....`
+To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda for creating the environment and a `setup.py` used by pip for installation.
+
+If you use github desktop, you can open the qiskit_metal folder from the menu `Repository -> Open In....`
 
 
 
