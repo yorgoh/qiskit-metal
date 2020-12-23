@@ -50,7 +50,7 @@ Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/instal
 ##### 1. Open the correct folder
 To create the Conda environment and install Metal via the terminal or desktop you must be in the `qiskit_metal` folder you just cloned.
 
-For the terminal or command line, cd into qiskit_metal.
+For the terminal or command line, `cd` into qiskit_metal.
 
 For Github desktop, you can open the qiskit_metal folder from the menu Repository -> Open In....
 
@@ -117,7 +117,14 @@ where `<virtual_env_path>` is where you want the Python virtual environment to b
 On Windows, replace `source <virtual_env_path>/bin/activate` with `.\<virtual_env_path>\Scripts\activate`.
 
 
-###### Installation hints
+
+
+## For Developers
+If you are planning to develop the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
+
+
+## Common Issues
+#### Installation hints
 
 Here are some things to consider when setting up a development environment:
 
@@ -125,12 +132,6 @@ Here are some things to consider when setting up a development environment:
 
 * Add the path of your qiskit-metal folder to your PATH
 
-
-### For Developers
-If you are planning to develop the qiskit metal codebase, you'll want to use these instructions to [setup user environment](/docs/NEW_DEVELOPER_SETUP.md)
-
-
-## Common Issues
 
 #### pyqode/pyside
 Please be aware that the environment.xml and requirements.txt each use a different `pyside` version. This is done for Windows OS users to prevent a ipython kernel crash caused by the installation of a library incompatible with `pyqode`.
