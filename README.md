@@ -18,11 +18,8 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 
 ## Installation
-
-##### Video Installation Link:
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
- Click for YouTube Video <br>
-	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
+ Click for Installation YouTube Video <br>
 </a>
 
 * For your own sanity, it is recommended to read this document in its entirety before proceeding.
@@ -51,7 +48,6 @@ Install [Conda](https://docs.Conda.io/projects/Conda/en/latest/user-guide/instal
 To create the environment and install Metal you must be in the qiskit_metal folder created by the clone. If you are in the folder qiskit-metal folder, there will be an `environment.yml` used by Conda for creating the environment and a `setup.py` used by pip for installation.
 
 If you use github desktop, you can open the qiskit_metal folder from the menu `Repository -> Open In....`
-
 
 
 ##### Create Conda Environment
