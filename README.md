@@ -6,21 +6,14 @@
 ## Early Access
 https://qiskit.org/metal/
 
-This is the unpolished, early-access version for a first-of-its-kind, open-source project for engineers and scientists to design superconducting quantum devices with ease.
+This is the unpolished, early-access quantum chip design software. We are so excited for you to join us in making Metal work for scientists and engineers around the world.
 
-This early-access program will start in November and proceed through March, 2021, during which time we will work closely to develop Metal and design quantum devices with it.
-
-Through this early-access program, we are thrilled to ask you to join this journey to revolutionize quantum devices.
-
-
-###### Get help: Slack
-Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u2FGivroQi64fHajpTWiw) to communicate with other developers and  early-access participants. (Troubleshooting: If the Slack invitation has expired, request one by opening a GitHub issue.)
-
+##### Get help: Slack
+Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u2FGivroQi64fHajpTWiw) to communicate with other developers and early-access participants. (Troubleshooting: If the Slack invitation has expired, request one by opening a GitHub issue.)
 
 ## Installation
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
  Click for Installation YouTube Video <br>
-	<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="Qiskit Metal Install" width=150>
 </a>
 
 *For your own sanity, it is recommended to read this document in its entirety before proceeding.*
