@@ -13,7 +13,7 @@ Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u
 
 ## Installation
 
-* It should take ~10 minutes to set up Metal. For your own sanity, it is recommended to read this document in its entirety before proceeding.*
+* *It should take ~10 minutes to set up Metal. For your own sanity, it is recommended to read this document in its entirety before proceeding.*
 
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
  Click for Installation YouTube Video <br>
