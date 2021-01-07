@@ -12,7 +12,7 @@ This is the unpolished, early-access quantum chip design software. We are so exc
 Use the [Slack channel (Join here!)](https://join.slack.com/share/zt-jjgzilxu-1u2FGivroQi64fHajpTWiw) to communicate with other developers and early-access participants. (Troubleshooting: If the Slack invitation has expired, request one by opening a GitHub issue.)
 
 ## Installation
-##### Steps 1-3 show you how to set up on your local device. It should take ~10 minutes to set up Metal.
+#### Steps 1-3 show you how to set up on your local device. It should take ~10 minutes to set up Metal.
 *For your own sanity, it is recommended to read this document in its entirety before proceeding.*
 
 <a href="https://www.youtube.com/watch?v=sYVDtnJb-ZM&ab_channel=Qiskit">
