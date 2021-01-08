@@ -108,7 +108,7 @@ You can already use qiskit-metal through jupyter notebook.
 However, if you prefer using jupyter lab, you will need to execute a couple of extra steps.
 
 
-### Alternative Setup (no Conda) - not recommended:
+## Alternative Setup (no Conda) - not recommended:
 *On Windows, the Conda environment is strongly recommended because Shapely is difficult to install directly via pip.*
 ##### Virtual environment setup
 
