@@ -62,12 +62,12 @@ Run the commands below to install Metal in your activated Conda environment.
 python -m pip install -ve .
 ```
 
-#### 4. Jupyter
+### 4. Jupyter
 Technically optional, but all tutorials for Metal are all written in Jupyter Notebooks and so it is highly encouraged you use Jupyter
 
 *`Jupyter Notebooks` should already be installed for you by Conda.*
 
-##### 1. Add Conda Environment to Jupyter
+#### 1. Add Conda Environment to Jupyter
 *Make sure you're still in your <env_name> activated environment*
 ```
 conda install ipykernel
@@ -75,14 +75,14 @@ ipython kernel install --user --name=<env_name>
 ```
 This will create a kernel from <env_name> Conda environment that you can choose to use in Jupyter Notebooks
 
-##### 2. Launch Jupyter
+#### 2. Launch Jupyter
 
 ```
 jupyter notebook
 ```
 This should open your browser to Jupyter
 
-##### 3. Run Notebook
+#### 3. Run Notebook
 Navigate to a jupyter notebook you wish to run. For example, `qiskit_metal/TUTORIAL/1 Start Here/1.1 Flashy Quick Demo of Metal.ipynb`
 
 
@@ -90,10 +90,10 @@ Once the notebook is open, be sure to click on the `kernel` tab and `change kern
 
 Then click the `cell` tab and click `run all`
 
-#### 5 Using Metal
+### 5 Using Metal
 Open the TUTORIAL folder in Jupyter Notebooks and start playing with Metal.
 
-#### 5.5 Developer Setup (Optional)
+### 5.5 Developer Setup (Optional)
 If you are planning to contribute to the qiskit metal codebase, you'll want to use these instructions to [setup developer workspace](/docs/NEW_DEVELOPER_SETUP.md)
 
 
