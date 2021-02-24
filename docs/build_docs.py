@@ -22,7 +22,6 @@ If `python` doesnt work, use `python3`
 import shlex
 import subprocess
 import os
-import sys
 
 # first install prerequisite packages
 try:
@@ -30,12 +29,10 @@ try:
     import numpydoc
     import sphinx_automodapi
     import jupyter_sphinx
-    import nbsphinx
-
 except ImportError:
     cmd1 = "conda install -y -c conda-forge sphinx numpydoc sphinx-automodapi jupyter_sphinx"
     print(
-        f"\n*** Installing pre-requisite packages to build the docs***\n$ {cmd1}"
+        f'\n*** Installing pre-requisite packages to build the docs***\n$ {cmd1}'
     )
     scmd = shlex.split(cmd1)
     try:
@@ -55,11 +52,10 @@ except ImportError:
     if stderr:
         print(f'****stderr****\n{stderr.decode()}')
     print("Conda pre-requisite installation Complete!")
-
 try:
     import qiskit_sphinx_theme
 except ImportError:
-    cmd2 = "python3 -m pip install qiskit-sphinx-theme"
+    cmd2 = "python -m pip install qiskit-sphinx-theme"
     print(
         f'\n*** Installing pre-requisite packages to build the docs***\n$ {cmd2}'
     )
