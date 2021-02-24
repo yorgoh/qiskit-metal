@@ -78,7 +78,7 @@ Qiskit for quantum hardware design (`Qiskit Metal`) is:
     :caption: Tutorials
     :hidden:
 
-.. TODO: Add jupyter notebooks here
+    Tutorials<guide_link>
 
 .. toctree::
     :maxdepth: 2
